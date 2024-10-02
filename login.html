@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="mystyle.css" >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<body class="background">
+    
+<center><div class="box">
+        <h1 class="h1">Login Website</h1>      
+        <form action="receivelogin.html" method="post" target="_blank">
+            <lable class="text02">Enter username: </lable>
+            <input class="box-input"type="text" id="user" name="user"  size="25"> <br><br>
+
+             <lable class="text02">Enter password: </lable>
+            <input class="box-input" type="password" id="password" name="pass" size="25"><br>
+            <br><p class="text03">
+            เมื่อกรอกข้อมูลครบแล้ว กรุณากดปุ่มเพื่อเข้าสู่ระบบ
+            </p>
+            
+             <input class="confirm" type="submit" id="send" name="send" value="เข้าระบบ">
+             <input class="cancel" type="reset" id="cancel" name="cancel" value="ยกเลิก">
+    </form>
+    
+    <form action="member.html" method="post" target="_blank">
+            <br>
+            <hr>
+            <h1 class="text03">สมัครสมาชิก</h1>
+             <div style="display: flex; gap: 15px;"> 
+            <p class="text02">click to me </p>
+            <input class="singup" type="submit" id="submit" name="register" value="สมัครสมาชิก">
+        </div>
+       
+
+    </form>
+</center></div>
+
+</body>
+</html>
